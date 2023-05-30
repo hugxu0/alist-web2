@@ -8,7 +8,7 @@ export const FullScreenLoading = () => {
         thickness="4px"
         speed="0.65s"
         //主页圆形加载蓝色条
-        emptyColor="tomato"
+        emptyColor="Violet"
         //emptyColor="$neutral4"
         //color="tomato"
         color={getMainColor()}
