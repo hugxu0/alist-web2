@@ -1,4 +1,4 @@
-import { createResource } from "solid-js"
+/*import { createResource } from "solid-js"
 import { Markdown, MaybeLoading } from "~/components"
 import { useT, useManageTitle } from "~/hooks"
 
@@ -19,3 +19,4 @@ const About = () => {
 }
 
 export default About
+*/
