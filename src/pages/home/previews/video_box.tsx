@@ -10,16 +10,16 @@ import { SelectWrapper } from "~/components"
 Artplayer.PLAYBACK_RATE = [0.5, 0.75, 1, 1.25, 1.5, 2, 3, 4]
 
 const players: { icon: string; name: string; scheme: string }[] = [
-  { icon: "iina", name: "IINA", scheme: "iina://weblink?url=$durl" },
+  //{ icon: "iina", name: "IINA", scheme: "iina://weblink?url=$durl" },
   { icon: "potplayer", name: "PotPlayer", scheme: "potplayer://$durl" },
-  { icon: "vlc", name: "VLC", scheme: "vlc://$durl" },
+  //{ icon: "vlc", name: "VLC", scheme: "vlc://$durl" },
   { icon: "nplayer", name: "nPlayer", scheme: "nplayer-$durl" },
   {
     icon: "infuse",
     name: "Infuse",
     scheme: "infuse://x-callback-url/play?url=$durl",
   },
-  {
+/*  {
     icon: "mxplayer",
     name: "MX Player",
     scheme:
@@ -30,7 +30,7 @@ const players: { icon: string; name: string; scheme: string }[] = [
     name: "MX Player Pro",
     scheme:
       "intent:$durl#Intent;package=com.mxtech.videoplayer.pro;S.title=$name;end",
-  },
+  },*/
 ]
 
 export const VideoBox = (props: { children: JSXElement }) => {
