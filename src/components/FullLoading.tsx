@@ -38,7 +38,7 @@ export const FullLoading = (props: {
         thickness={`${merged.thickness}px`}
         speed="0.65s"
         //目录白色条
-        emptyColor="tomato"
+        emptyColor="Violet"
         //emptyColor="$neutral4"
         //color="tomato"
         color={getMainColor()}
@@ -65,7 +65,7 @@ export const CenterLoading = <C extends ElementType = "div">(
   return (
     <Center w="$full" h="$full">
       {/* 左上角logo加载颜色 */}
-      <Spinner color="tomato" {...props} />
+      <Spinner color="Violet" {...props} />
     </Center>
   )
 }
