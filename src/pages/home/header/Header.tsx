@@ -32,6 +32,7 @@ export const Header = () => {
           px="calc(2% + 0.5rem)"
           py="$2"
           w="$full"
+          color={getMainColor()}
           justifyContent="space-between"
         >
           <HStack class="header-left" h="44px">
@@ -39,6 +40,7 @@ export const Header = () => {
               src={logo()!}
               h="$full"
               w="auto"
+              color={getMainColor()}
               fallback={<CenterLoading />}
             />
           </HStack>
